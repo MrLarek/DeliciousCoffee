@@ -1,0 +1,45 @@
+.home {
+    background-color: #EEEFF1;
+    padding: 99px 0px 131px 0px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__big-text {
+        font-weight: 800;
+        font-size: rem(124);
+        line-height: 113%;
+        color: #1B1B1D;
+        margin-bottom: 25px;
+        &::after {
+            content: url(../../img/main/icon.png);
+            padding: 20px;
+        }
+    }
+
+    &__subtitle {
+        max-width: 530px;
+        margin-bottom: em(40);
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__text-link {
+        font-weight: 500;
+        font-size: rem(18);
+        line-height: prc(26, 18);
+        text-transform: uppercase;
+        color: #1B1B1D;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.texts {
+    text-align: center;
+}
+.title {
+    @include text1();
+    margin-bottom: 24px;
+}
+.subtitle {
+    margin: 0 auto;
+    max-width: 604px;
+    margin-bottom: 90px;
+}
+.button {
+    transition: all 0.3s linear;
+    border: 1px solid #1B1B1D;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFFFFF;
+    background: #1B1B1D;
+    border-radius: 126px;
+    padding: 15px 30px;
+    &:hover {
+        background: #EEEFF1;
+        color: #1B1B1D;
+    }
+}
+.button-link {
+    font-weight: 500;
+    font-size: rem(18);
+    line-height: prc(30, 18);
+    text-transform: uppercase;
+}

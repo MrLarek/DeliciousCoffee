@@ -1,0 +1,20 @@
+.order {
+    padding: 190px 0px 0px 0px;
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        margin-left: -71px;
+    }
+
+    &__title {
+        @include text1();
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        margin-bottom: 60px;
+    }
+}

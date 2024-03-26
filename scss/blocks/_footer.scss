@@ -1,0 +1,13 @@
+.footer {
+    padding: 100px 0px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        span {
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.instant {
+    padding-top: 200px;
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        @include text1();
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        margin-bottom: 60px;
+    }
+
+    &__image {
+        margin-right: -98px;
+    }
+}
